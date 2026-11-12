@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0](https://github.com/kanagawa-community/oh-my-posh/compare/1.0.0..1.1.0) - 2026-11-12
+
+### Features
+
+- add the vim_brackets variable (#4) - ([753d79f](https://github.com/kanagawa-community/oh-my-posh/commit/753d79fde16d6746e2b8f945164da1cc6070ad35)) - [@sravioli](https://github.com/sravioli)
+- add the vim_brackets variable - ([7e527d3](https://github.com/kanagawa-community/oh-my-posh/commit/7e527d346e58f6397edc4e6f226a4e3c4f3ae202)) - [@sravioli](https://github.com/sravioli)
+
+### Documentation
+
+- show the badges in their own row below the header (#3) - ([c68bc76](https://github.com/kanagawa-community/oh-my-posh/commit/c68bc768016e0245c6acbce003e418a2115f01bb)) - [@sravioli](https://github.com/sravioli)
+- show the badges in their own row below the header - ([e0ccbe6](https://github.com/kanagawa-community/oh-my-posh/commit/e0ccbe6a3c377204431d75cdbd7ca83498a94767)) - [@sravioli](https://github.com/sravioli)
+
+---
+
 ## [1.0.0](https://github.com/kanagawa-community/oh-my-posh/compare/29795aedbde343a05fa15ec467c5a257fa881171..1.0.0) - 2026-11-12
 
 ### Features
