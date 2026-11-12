@@ -6,8 +6,10 @@
 
 <p>Based on <a href="https://github.com/JanDeDobbeleer/oh-my-posh/discussions/4414">the Kanagawa theme</a> by <a href="https://github.com/sravioli">sravioli</a>.</p>
 
+<br clear="both">
+
 <!-- Wave accents: carpYellow, crystalBlue, autumnRed. Lotus accents: lotusYellow, lotusBlue4, lotusRed. -->
-<p>
+<p align="center">
   <a href="https://github.com/kanagawa-community/oh-my-posh/stargazers">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/github/stars/kanagawa-community/oh-my-posh?style=for-the-badge&amp;labelColor=1F1F28&amp;color=E6C384">
@@ -31,7 +33,6 @@
   </a>
 </p>
 
-<br clear="both">
 <br>
 
 ## Previews
