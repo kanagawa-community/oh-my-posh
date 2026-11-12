@@ -17,7 +17,8 @@
     "show_project": true,
     "vim_cursor": true,
     "vim_show_insert": false,
-    "vim_short": false
+    "vim_short": false,
+    "vim_brackets": false
   },
   "blocks": [
     {
@@ -379,7 +380,7 @@
           "foreground_templates": [
             "{{ if eq .Mode \"visual\" }}p:mode-visual{{ else if eq .Mode \"replace\" }}p:red{{ else if eq .Mode \"insert\" }}p:diag-ok{{ else }}p:mode-normal{{ end }}"
           ],
-          "template": "{{ if or (eq .Mode \"normal\" \"visual\" \"replace\" \"viopp\") (and .Var.vim_show_insert (eq .Mode \"insert\")) }}{{ $m := .Mode }}{{ if eq $m \"viopp\" }}{{ $m = \"normal\" }}{{ end }}{{ if .Var.vim_short }}{{ upper (substr 0 1 $m) }}{{ else }}{{ upper $m }}{{ end }} {{ end }}"
+          "template": "{{ if or (eq .Mode \"normal\" \"visual\" \"replace\" \"viopp\") (and .Var.vim_show_insert (eq .Mode \"insert\")) }}{{ $m := .Mode }}{{ if eq $m \"viopp\" }}{{ $m = \"normal\" }}{{ end }}{{ $l := upper $m }}{{ if .Var.vim_short }}{{ $l = upper (substr 0 1 $m) }}{{ end }}{{ if .Var.vim_brackets }}{{ $l = printf \"[%s]\" $l }}{{ end }}{{ $l }} {{ end }}"
         },
         {
           "type": "status",

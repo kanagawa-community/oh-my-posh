@@ -183,6 +183,7 @@ above.
 | `vim_cursor`       | `true`  | `false` stops the theme from changing the cursor shape.                 |
 | `vim_show_insert`  | `false` | `true` shows `INSERT` in insert mode.                                   |
 | `vim_short`        | `false` | `true` shows one letter for the Vi mode: `N`, `V`, `R`, or `I`.         |
+| `vim_brackets`     | `false` | `true` puts the Vi mode in brackets, such as `[N]` or `[NORMAL]`.       |
 
 To change them, make your own file that extends a theme, and set only the
 variables you change. Use your file in `oh-my-posh init`, not the theme:
